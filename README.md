@@ -21,7 +21,9 @@ raw `BigDecimal` and let the end user decide on required precision.
 
 ## Request examples
 
-Empty body
+### Empty body
+
+Request body:
 
 ```json
 {
@@ -31,7 +33,17 @@ Empty body
 }
 ```
 
-Example 1:
+Response:
+
+```json
+{
+  "premium": 0.00
+}
+```
+
+### Example 1
+
+Request body:
 
 ```json
 {
@@ -57,7 +69,17 @@ Example 1:
 }
 ```
 
-Example 2:
+Response:
+
+```json
+{
+  "premium": 2.28
+}
+```
+
+### Example 2
+
+Request body:
 
 ```json
 {
@@ -80,5 +102,13 @@ Example 2:
       ]
     }
   ]
+}
+```
+
+Response:
+
+```json
+{
+  "premium": 17.13
 }
 ```
