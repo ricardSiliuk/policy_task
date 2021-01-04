@@ -19,6 +19,8 @@ many subcomponents. Since current risk-type calculators are quite small there is
 `PremiumCalculatorService.calculate()` rounds up to 2 digits after a decimal separator. Ideally it should return
 raw `BigDecimal` and let the end user decide on required precision.
 
+Since it was not explicitly stated I defaulted empty policies to have premium of 0. It could also be defaulted to null.
+
 ## Request examples
 
 ### Empty body
